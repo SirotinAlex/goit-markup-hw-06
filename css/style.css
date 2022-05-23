@@ -627,9 +627,56 @@ padding: 0px;
 .footer-soc-item:hover .footer-soc-icon {
     fill: #F5F4FA;
     }
-    
 
-/* ПОРТФОЛИО */
+
+    /* форма футер */
+
+.footer-mailing {
+ margin-left: 93px;
+}    
+
+.footer-maling-par {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-bottom: 20px;
+margin-bottom: 10px;
+}
+
+.footer-input {
+width: 358px;
+height: 50px;
+box-sizing: border-box;
+font-size: 16px;
+line-height: 1.25;
+padding-left: 16px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background: #2F303A;
+}
+
+.footer-but {
+    margin-left: 12px;
+width: 200px;
+height: 50px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: #2196F3;
+
+
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+                  /* ПОРТФОЛИО */
 
 .portfolio-btn {
 
