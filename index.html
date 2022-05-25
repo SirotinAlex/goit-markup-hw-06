@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    
 </head>
 <body>
     <header class="header">
@@ -450,10 +452,30 @@
         class="modal-text" 
         placeholder="Введите текст"
         ></textarea>
-</div>
+    </div>
+    <div class="modal-field">
+       <input type="checkbox"
+       name="privacy"
+       id="privacy"
+       value="privacy"
+       class="modal-check visually-hidden"
+       > 
+       <label for="privacy"
+       class="check-text"
+       ><span>
+    <svg class="check-icon" width="11" height="8">
+        <use href="./images/icons.svg#icon-vectorr"></use>
+    </svg>
+</span>
+
+    <p class="condition">Соглашаюсь с рассылкой и принимаю</p>
+    <a href="Условия договора" class="conditionals">Условия договора</a>
 
 
-      <button type="submit">Отправить</button>
+    </label>
+
+    </div>
+       <button type="submit" class="send-button">Отправить</button>
     </form>
 
     </div>
