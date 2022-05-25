@@ -957,9 +957,9 @@ margin-bottom: 4px;
     
 }
 
-
-.modal-text:hover {
-    border-color: var(--accent-color);
+.modal-text:hover,
+.modal-text:focus{
+    border: 1px solid #2196F3;
 }
 
 
